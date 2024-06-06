@@ -11,7 +11,7 @@ class SwagLabs(BasePage):
             return False
         return True
 
-    def exist_field_name(self, loc):
+    def exist_field(self, loc):
         try:
             self.find_element(loc)
         except NoSuchElementException:
